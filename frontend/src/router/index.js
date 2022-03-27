@@ -3,6 +3,7 @@ import Home from "@/views/Home.vue";
 import Countries from "@/views/Countries.vue";
 import CountryEdit from "@/views/CountryEdit.vue";
 import CityEdit from "@/views/CityEdit.vue";
+import VilleParPaysList from "@/views/VilleParPays.vue";
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: "/countryEdit",
     name: "CountryEdit",
     component: CountryEdit,
+  },
+  {
+    path: "/villeParPays",
+    name: "VilleParPays",
+    component: VilleParPaysList,
   },
   {
     path: "/about",
